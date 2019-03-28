@@ -89,3 +89,17 @@ footer{
     height: 100px;  
     background-color: #02C874; 
 }
+#imgItems{
+    width: 100%;
+}
+
+.imgArea{
+    width: 100%;
+    /* display: flex; */
+}
+.myPhoto{
+    /* width: 20%;
+    height: 20%; */
+    border: #d0d0d0 0.5px solid;
+    margin: 5px 5px 5px 5px;
+}

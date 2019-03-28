@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>鲜果</title>
         <link rel="stylesheet" type="text/css" href="static/css/fleshFriut.css" />
+        <script src="static/js/fleshFriut.js"></script>
     </head>
     <body>
         <header><nav></nav></header>
@@ -28,8 +29,33 @@
                     <span class="right">苹果类 | 芒果 | 香蕉 | 榴莲 | 莲雾 </span>
                 </div>
             </div>
+            <div id="imgItems">
+                <div class="imgArea">
+                    <img class="myPhoto" alt="loading" data-src="static/img/nexr.jpg">
+                    <img class="myPhoto" alt="loading" data-src="static/img/hamigua.jpg">
+                    <img class="myPhoto" alt="loading" data-src="static/img/mihout.jpg">
+                    <img class="myPhoto" alt="loading" data-src="static/img/ganju.jpg">
+                    <img class="myPhoto" alt="loading" data-src="static/img/wulian.jpg">
+                </div>
+                <div class="imgArea">
+                    <img class="myPhoto" alt="loading" data-src="static/img/liulian.jpg">
+                    <img class="myPhoto" alt="loading" data-src="static/img/xiangjiao.jpg">
+                    <img class="myPhoto" alt="loading" data-src="static/img/uv6b.jpg">
+                    <img class="myPhoto" alt="loading" data-src="static/img/pingguo2.jpg">
+                    <img class="myPhoto" alt="loading" data-src="static/img/4iuh.jpg">
+                </div>
+                <div class="imgArea">
+                    <img class="myPhoto" alt="loading" data-src="static/img/136l.jpg">
+                    <img class="myPhoto" alt="loading" data-src="static/img/lxlo.jpg">
+                    <img class="myPhoto" alt="loading" data-src="static/img/v0w7.jpg">
+                    <img class="myPhoto" alt="loading" data-src="static/img/tgio.jpg">
+                </div>
+            </div>
         </div>
         <footer></footer>
-        
+        <script>
+            window.onload = checkImgs;
+            window.onscroll = throttle(checkImgs);
+        </script>
     </body>
 </html>
