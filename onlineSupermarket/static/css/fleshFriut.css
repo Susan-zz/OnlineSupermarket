@@ -1,0 +1,91 @@
+/*全局样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+/*顶部样式*/
+header{  
+    margin:0 auto;  
+    background-color: #f0f0f0; 
+    height: 180px;
+} 
+nav{  
+    margin: 0 auto;   
+    background-color: #02C874;  
+    height: 40px; 
+} 
+/*顶部图片展览区样式*/
+#displayPicture{
+    position: relative;
+}
+#title1{
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #FF8000;
+}
+#title2{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 5rem;
+}
+#title3{
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    width:18.75rem;
+    height: 7.25rem;
+    background-color: orange;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 7.25rem;
+}
+#title3 span{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 4.2rem;
+}
+
+/*详情样式*/
+.content{  
+    margin: 0 auto;  
+    max-width: 60%;  
+    height: 100%;  
+    margin-top: 3%;
+} 
+#classify{
+    width: 100%;
+    font-size: 1.5rem;
+    border: #d0d0d0 0.5px solid;
+}
+.Fruit{
+    width: 100%;  
+}
+.left{
+    padding-left: 10%;
+    padding-right: 5%;
+    background-color: #f0f0f0;
+}
+.right{
+    
+}
+/*底部样式*/
+footer{  
+    margin: 0 auto;  
+    height: 100px;  
+    background-color: #02C874; 
+}
